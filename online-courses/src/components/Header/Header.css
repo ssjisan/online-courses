@@ -1,0 +1,12 @@
+img{
+    height: 70px;
+    width: 170px;
+}
+.container nav{
+    background-color: black;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+}
+
