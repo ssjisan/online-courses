@@ -11,7 +11,7 @@ const Cart = (props) => {
     let total = 0;
     for(let i=0;i<cart.length; i++){
         const course = cart[i];
-        total = total + course.price;
+        total = Math.ceil(total + course.price);
 
     }
     return (
